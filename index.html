@@ -5,80 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images.jpg" type="image/x-icon">
     <link href="style.css" rel="stylesheet">
-    
     <title>Freedom for Palestine</title>
 </head>
 <body>
-    <h1>Freedom and Hope: The Struggle for Palestinian Liberation</h1>
-<img  src="download.jpg"  width="400px" height="200px">
-    <h2>Introduction</h2>
-    <p><i>The ongoing conflict in Palestine remains one of the most significant and complex humanitarian issues in modern history. For decades, Palestinians have sought freedom, justice, and the right to self-determination in their ancestral homeland. This article delves into the historical roots, the challenges, and the aspirations of the Palestinian people.</i></p>
+    <header class="header">
+        <h1>Freedom and Hope</h1>
+        <h2>The Struggle for Palestinian Liberation</h2>
+    </header>
 
-    <h3><b>The Historical Context</b></h3>
-    <p><i>The struggle for Palestinian independence dates back to the <b>mid-20th century, following the establishment of Israel in 1948.</b> The displacement of hundreds of thousands of Palestinians, known as the Nakba (the "Catastrophe"), marked the beginning of a conflict that has shaped the region for decades.</i></p>
-<img src="download.png"  width="300px" height="200px">
-    <h4><b>Present-Day Realities</b></h4>
-    <p><i>Palestinians in the <b>West Bank, Gaza Strip, and East Jerusalem</b> face ongoing challenges such as military occupation, restricted movement, and limited access to resources. Meanwhile, international efforts for peace continue, albeit with slow progress.</i></p>
+    <section class="content">
+        <div class="card">
+            <img src="download.jpg" alt="Image of Hope" class="main-image">
+            <h2>Introduction</h2>
+            <p>The ongoing conflict in Palestine remains one of the most significant humanitarian issues in modern history. Palestinians continue to seek freedom, justice, and the right to self-determination in their ancestral homeland.</p>
+        </div>
 
-    <video src="I want to die  - a Palestinian child in Gaza says due to war.mp4" width="400px" height="200px" controls></video>
-    <h4><b>Hope for the Future</b></h4>
-<p>Despite these challenges, the Palestinian people remain resilient, advocating for their rights through peaceful protests, diplomacy, and cultural preservation. The international community plays a crucial role in supporting these efforts toward a just and lasting solution.</p>
+        <div class="card">
+            <h3>The Historical Context</h3>
+            <p>The struggle for Palestinian independence began in the mid-20th century, following the establishment of Israel in 1948. The displacement of Palestinians during the Nakba ("Catastrophe") marked the start of decades-long conflict.</p>
+            <img src="download.png" alt="Historical Context" class="small-image">
+        </div>
 
-<img  src="download.jpg" width="400px" height="200px">
-<audio controls >
-    <source  src="1.mp3"  type="audio/mpeg">
-</audio>
-<br>
-<br>
-<br>
-<table  border="9">
-    <caption><b>Key Milestones in the Palestine-Israel Conflict</b></caption>
-    
-    <tr>
-        <th>Year</th>
-        <th>Event</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td>1948</td>
-        <td>Nakba</td>
-        <td>Displacement of Palestinians during Israel's formation.</td>
-    </tr>
-    <tr>
-        <td>1967</td>
-        <td>Six-Day War</td>
-        <td>Israel occupied the West Bank, Gaza, and East Jerusalem.</td>
-    </tr>
-    <tr>
-       <td>1993</td>
-       <td>Oslo</td>
-       <td>Accords	Aimed to establish a framework for peace.</td>
-    </tr>
-<tr>
-    <td>2005</td>
-    <td>Israeli Withdrawal from Gaza</td>
-    <td>Israel evacuated settlers but maintained control over borders.</td>
-</tr>
-<tr>
-    <td>Ongoing</td>
-    <td>Palestinian Struggle for Independence</td>
-    <td>Efforts through protests, diplomacy, and international support.</td>
-</tr>
-</table>
+        <div class="card">
+            <h3>Present-Day Realities</h3>
+            <p>Palestinians in the West Bank, Gaza, and East Jerusalem face challenges such as restricted movement, limited access to resources, and military occupation. International efforts for peace continue but progress remains slow.</p>
+            <video src="I want to die.mp4" controls class="video-element"></video>
+        </div>
+    </section>
 
-<form class="login-from">
-    <h1 >Login From</h1>
-<label for="Email">Email</label>
-<input  type="email"  placeholder="Enter your email or Phone Number"  required >
-<br>
-<label for="Password" >Password</label>
-<input type="password"  placeholder="Enter your   Password"  required>
-<br>
-<label  for="submit">Submit</label>
-       <button type="submit">Submit</button>
+    <section class="table-section">
+        <h3>Key Milestones</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Event</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1948</td>
+                    <td>Nakba</td>
+                    <td>Displacement of Palestinians during Israel's formation.</td>
+                </tr>
+                <tr>
+                    <td>1967</td>
+                    <td>Six-Day War</td>
+                    <td>Israel occupied the West Bank, Gaza, and East Jerusalem.</td>
+                </tr>
+                <tr>
+                    <td>1993</td>
+                    <td>Oslo Accords</td>
+                    <td>A framework for peace was established but not fulfilled.</td>
+                </tr>
+                <tr>
+                    <td>2005</td>
+                    <td>Israeli Withdrawal</td>
+                    <td>Israel evacuated settlers but maintained border control.</td>
+                </tr>
+                <tr>
+                    <td>Ongoing</td>
+                    <td>Struggle for Independence</td>
+                    <td>Palestinian efforts through diplomacy and protests.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
-    </form>
-
-    
+    <div class="login-section">
+        <h2>Login</h2>
+        <form class="login-form">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
 </body>
 </html>
